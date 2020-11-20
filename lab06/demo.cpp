@@ -33,7 +33,7 @@ void bubblesort(int data[], int length) {
 // 1.5 声明存储时长的double duration;
 // 2. 进行测试
 // 2.1 为随机函数播种 srand(time(0));
-// 2.2 构建测试循环，循环变量int testId=0，边界nTest; for(;testId<nTest;testID++){}
+// 2.2 构建测试循环，循环变量int testId=0，边界nTest; for(;testId<nTest;testID++){//循环体结尾到2.18}
 // 2.3 计算本次测试的随机序列个数 int N = dataLength[testID] = 50*(testId+1);
 // 2.4 产生随机序列，长度为N，for(;i<N;i++){a[i]=rand();}
 // 2.5 构建vector容器并存储随机序列：vector<int> v(a, a+N);
