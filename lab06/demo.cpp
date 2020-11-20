@@ -10,7 +10,6 @@ using namespace std;
 // --------
 // ## 自定义并实现的bubblesort函数
 void bubblesort(int data[], int length) {
-    bool flag;
     int end = length - 1;
     do {
         for (int i = 0; i < end; i++) {
@@ -45,7 +44,7 @@ void bubblesort(int data[], int length) {
 // duration=chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count()*1e-9;
 // 2.11 存储耗时到数组 stlSortTime[testId]=duration;
 // 2.13 记录开始时间 start=chrono::high_resolution_clock::now(); 
-// 2.14 对v进行排序 sort(v.begin(), v.end());
+// 2.14 对a进行排序 bubblesort(a, N);
 // 2.15 记录结束时间 stop=chrono::high_resolution_clock::now(); 
 // 2.16 计算排序耗时 
 // duration=chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count()*1e-9;
