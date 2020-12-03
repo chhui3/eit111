@@ -1,0 +1,2 @@
+C:\Users\chhui3\Source\Repos\chhui3\eit111\lab08\SnakeGameStart\Debug\SnakeGameStart.exe
+C:\Users\chhui3\Source\Repos\chhui3\eit111\lab08\SnakeGameStart\Debug\SnakeGameStart.pdb

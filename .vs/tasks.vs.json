@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-SnakeGameStart",
+      "appliesTo": "lab08/SnakeGameStart/SnakeGameStart.vcxproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "任务-SnakeGameStart",
+      "appliesTo": "lab08/SnakeGameStart/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "任务-eit111",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "任务-SnakeGameStart",
+      "appliesTo": "lab08/SnakeGameStart/",
+      "type": "launch"
+    }
+  ]
+}
